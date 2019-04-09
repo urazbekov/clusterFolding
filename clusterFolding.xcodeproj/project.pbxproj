@@ -25,6 +25,9 @@
 /* Begin PBXFileReference section */
 		7F46F674225C81760015551B /* clusterFolding */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = clusterFolding; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F46F677225C81760015551B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7F46F67E225C988D0015551B /* be.data */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = be.data; sourceTree = "<group>"; };
+		7F46F67F225C988D0015551B /* he.data */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = he.data; sourceTree = "<group>"; };
+		7F46F680225C988D0015551B /* li.data */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = li.data; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +61,19 @@
 			isa = PBXGroup;
 			children = (
 				7F46F677225C81760015551B /* main.cpp */,
+				7F46F682225C9B160015551B /* theWaveFunctionParameters */,
 			);
 			path = clusterFolding;
+			sourceTree = "<group>";
+		};
+		7F46F682225C9B160015551B /* theWaveFunctionParameters */ = {
+			isa = PBXGroup;
+			children = (
+				7F46F67E225C988D0015551B /* be.data */,
+				7F46F67F225C988D0015551B /* he.data */,
+				7F46F680225C988D0015551B /* li.data */,
+			);
+			path = theWaveFunctionParameters;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
